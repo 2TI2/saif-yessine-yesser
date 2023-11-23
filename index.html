@@ -38,6 +38,24 @@
             border-radius: 25px 50px;
              
         }
+        .u{
+            text-align: center;
+            color: gray;
+            background-color: gold;
+            margin: 1em;
+            padding: 1em;
+            border-radius: 25px 50px;
+             
+        }
+        .m{
+            text-align: center;
+            color: gray;
+            background-color: gold;
+            margin: 1em;
+            padding: 1em;
+            border-radius: 25px 50px;
+             
+        }
         footer{
             background-color: cyan;
             text-align: end;
@@ -58,6 +76,23 @@
 </head>
 <body>
     <header><h1>toi mon semblable</h1></header>
+    <div class="m">
+      <h1>introduction</h1>
+      <button class="b" onclick="myFunction()">hide/show</button>
+      <div id="m">
+      
+      </div>
+      <script>
+      function myFunction() {
+          var x = document.getElementById("m");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
+  </div>
     <div class="p">
         <h1>L'injustice</h1>
         <button class="b" onclick="myFunction()">hide/show</button>
@@ -110,6 +145,25 @@
             </script>
         </div>
     </div>
+  </div>
+  <div class="u">
+      <h1>La discrimination</h1>
+      <button class="b" onclick="myFunction2()">hide/show</button>
+      <div id="u">
+      La discrimination, sous toutes ses formes, est une manifestation déplorable d'injustice qui persiste dans de nombreuses sphères de la vie quotidienne. Elle se traduit par un traitement inéquitable fondé sur des caractéristiques telles que la race, le genre, la religion, l'orientation sexuelle, l'origine ethnique ou d'autres différences perçues. La discrimination peut se manifester de manière flagrante à travers des actes discriminatoires explicites, mais elle peut également être insidieuse, se cachant dans des pratiques institutionnelles qui maintiennent des inégalités structurelles. En plus de causer des préjudices individuels, la discrimination affaiblit le tissu social en créant des divisions et en entravant le potentiel de groupes entiers. La lutte contre la discrimination nécessite une vigilance constante, des changements de mentalité et des réformes politiques et sociales. Promouvoir l'éducation et la sensibilisation, tout en encourageant une culture de respect et de tolérance, est essentiel pour éradiquer ces attitudes préjudiciables. En travaillant collectivement à éliminer la discrimination, nous contribuons à la construction d'une société plus équitable et inclusive, où chacun peut être pleinement reconnu et valorisé, indépendamment de ses différences.
+      </div>
+      <script>
+      function myFunction2() {
+          var x = document.getElementById("u");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+      </script>
+  </div>
+</div>
     <footer>
         <h2>made by<br>saif eddine abd elwahed<br>yassin abd essmad<br>yesser arbi</h2>
     </footer>
